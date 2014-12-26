@@ -1,0 +1,2 @@
+/**sToast styles**/
+.s_toast{position:absolute;background-color:#000;border-radius:5px;text-align:center;padding:15px;color:#FFF;z-index:-9999;max-height:25%;overflow:auto;max-width:66%;opacity:0;display:block;font:16px}@-webkit-keyframes stShows{0%{display:block;opacity:0;z-index:9999}15%{opacity:.7;z-index:9999}85%{opacity:.7;z-index:9999}100%{opacity:0;z-index:-9999}}
