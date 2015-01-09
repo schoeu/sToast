@@ -33,6 +33,7 @@ function sToast(options){
         if(timer) clearTimeout(timer);
         timer = setTimeout(function(){
             st.style.webkitAnimation="";
+            s_body.removeChild(st);
         },sec);
     }
 
