@@ -9,10 +9,10 @@ function sToast(options){
             msg = options.msg || "",
             sec = options.time || 2000;
     }
-
+    var oldT = document.querySelector(".s_toast");
+    if(oldT) oldT.style.display = "none";
     var s_body = document.querySelector("body"),timer=null,
         h = window.innerHeight,w = window.innerWidth;
-
     var st = document.createElement("p");
     st.className = "s_toast";
     st.innerHTML = msg;
