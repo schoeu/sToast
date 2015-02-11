@@ -12,12 +12,10 @@
 
 <script type="text/javascript">
     //调用sToast
-    //sToast("input","信息",2000);
-    //绑定元素调用
-    sToast({ele:"input",msg:"信息信息",time:2000});
-
-    //其他事件触发
     //sToast({msg:"信息信息",time:2000});
+    document.querySelector("#tests").addEventListener("click",function(){
+        sToast({msg:"信息信息",time:2000});
+    });
 </script>
 </body>
 </html>
